@@ -1,0 +1,86 @@
+/* style.css */
+
+/* Mengatur warna latar belakang halaman */
+body {
+    background-color: #f4f4f4; /* Warna abu-abu terang */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling untuk form input */
+.form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e0e0e0; /* Warna abu-abu sedang */
+    border-radius: 8px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+    text-align: center;
+    color: #333; /* Warna teks gelap */
+}
+
+.form label {
+    font-weight: bold;
+    color: #555; /* Warna teks abu-abu gelap */
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Warna border abu-abu terang */
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Warna latar belakang input */
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #888; /* Warna abu-abu sedang */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #777; /* Warna abu-abu lebih gelap saat hover */
+}
+
+/* Styling untuk tabel */
+.tabel {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #e0e0e0; /* Warna abu-abu sedang */
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabel table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabel th, .tabel td {
+    padding: 10px;
+    text-align: center;
+    color: #555; /* Warna teks abu-abu gelap */
+}
+
+.tabel th {
+    background-color: #888; /* Warna abu-abu lebih gelap untuk header */
+    color: white;
+}
+
+.tabel tr:nth-child(even) {
+    background-color: #f2f2f2; /* Warna latar belakang baris genap */
+}
+
+.tabel tr:hover {
+    background-color: #ddd; /* Warna latar belakang baris saat hover */
+}
